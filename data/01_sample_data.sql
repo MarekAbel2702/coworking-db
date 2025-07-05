@@ -1,4 +1,4 @@
-INSERT INTO users (full_name, phone, role)
+INSERT INTO users (full_name, email, phone, role)
 VALUES
 	('Jan Kowalski', 'jan.kowalski@example.com', '123456789', 'client'),
 	('Anna Nowak', 'anna.nowak@example.com', '987654321', 'client'),
@@ -36,7 +36,7 @@ VALUES
 	(2, 'FV-2025-002'),
 	(3, 'FV-2025-003');
 
-INSERT INTO acces_logs (user_id, entry_time, exit_time)
+INSERT INTO access_logs (user_id, entry_time, exit_time)
 VALUES
 	(1, '2025-07-06 08:50', '2025-07-06 17:10'),
 	(2, '2025-07-06 09:45', '2025-07-06 15:10'),
